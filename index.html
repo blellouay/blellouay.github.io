@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090e19">
+  <meta name="description" content="Louay Blel — Data Science Engineering student building reliable AI systems, RAG pipelines, language models and machine learning solutions.">
+  <title>Louay Blel — AI & Machine Learning Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glow glow-one" aria-hidden="true"></div>
+  <div class="glow glow-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="wordmark" href="#home"><span class="brand-mark">LB<span>.</span></span><span class="wordmark-text">louay / portfolio</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions"><button id="themeToggle" class="icon-button" aria-label="Toggle light or dark theme" title="Toggle theme">☀</button><a class="nav-github" href="https://github.com/blellouay" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-main reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Open to AI / ML opportunities <span class="eyebrow-arrow">↗</span></div>
+        <p class="kicker">HELLO, I'M LOUAY BLEL</p>
+        <h1>I build AI systems<br>that <span class="gradient-text">make sense.</span></h1>
+        <p class="hero-description">Data Science Engineering student focused on reliable Generative AI, NLP, machine learning and intelligent software — from research prototypes to evaluated end-to-end solutions.</p>
+        <div class="hero-buttons"><a class="btn btn-primary" href="#projects">Explore my work <span>↗</span></a><a class="btn btn-outline" href="mailto:blel.louay@outlook.com">Get in touch <span>↗</span></a></div>
+        <div class="hero-mini"><span><i class="mini-dot"></i> Python &amp; PyTorch</span><span><i class="mini-dot"></i> Retrieval-Augmented Generation</span><span><i class="mini-dot"></i> Explainable ML</span></div>
+      </div>
+      <aside class="hero-panel reveal" aria-label="Selected impact highlights">
+        <div class="panel-top"><div class="panel-caption"><span class="panel-symbol">✳</span> CURRENT FOCUS</div><span class="tag">AI ENGINEERING</span></div>
+        <div class="orbit-wrap" aria-hidden="true"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit-center">AI<span>↗</span></div><div class="orbit-node node-a"></div><div class="orbit-node node-b"></div><div class="orbit-node node-c"></div></div>
+        <div class="panel-footer"><div><span class="panel-small">RESEARCH → BUILD → EVALUATE</span><strong>Trustworthy intelligence.</strong></div><span class="panel-arrow">↗</span></div>
+      </aside>
+      <a class="scroll-hint" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading reveal"><div><span class="section-index">01 / ABOUT ME</span><h2>Curiosity backed<br>by <em>engineering.</em></h2></div><p>I enjoy turning ambiguous problems into measurable systems — with baselines, robust evaluation, and clean implementations.</p></div>
+      <div class="about-grid">
+        <article class="surface-card about-copy reveal"><span class="tiny-heading">A LITTLE ABOUT ME</span><p>I'm a Data Science Engineering student at <strong>ESSAI</strong> in Tunisia. I work at the intersection of machine learning, language models, information retrieval, and backend engineering.</p><p>During my internship at <strong>AMC EY</strong>, I built a research-paper assistant prototype combining PDF structure extraction, dense retrieval, reranking, local LLM generation, and claim-level grounding checks.</p><a class="text-link" href="#experience">More about my experience <span>↗</span></a></article>
+        <article class="surface-card skills-card reveal"><span class="tiny-heading">TECH STACK</span>
+          <div class="skill-group"><h3>AI &amp; Data</h3><div class="chip-row"><span>Python</span><span>PyTorch</span><span>scikit-learn</span><span>XGBoost</span><span>Pandas</span><span>SHAP</span></div></div>
+          <div class="skill-group"><h3>LLMs &amp; Retrieval</h3><div class="chip-row"><span>Transformers</span><span>PEFT / LoRA</span><span>RAG</span><span>Qdrant</span><span>Ollama</span><span>Reranking</span></div></div>
+          <div class="skill-group"><h3>Engineering</h3><div class="chip-row"><span>Java</span><span>Spring Boot</span><span>SQL</span><span>Streamlit</span><span>Git</span><span>Jupyter</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section container">
+      <div class="section-heading reveal"><div><span class="section-index">02 / SELECTED WORK</span><h2>Projects with<br><em>purpose.</em></h2></div><p>Not just model demos: experiments, comparisons, and applications built around real technical questions.</p></div>
+      <div class="projects-toolbar reveal"><div class="filter-list" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all" aria-pressed="true">All projects</button><button class="filter" data-filter="genai" aria-pressed="false">GenAI &amp; NLP</button><button class="filter" data-filter="ml" aria-pressed="false">Machine Learning</button><button class="filter" data-filter="vision" aria-pressed="false">Computer Vision</button></div><span id="projectCount" class="project-count">06 PROJECTS</span></div>
+      <div id="projectGrid" class="project-grid" aria-live="polite"></div>
+      <div class="more-projects reveal"><span id="githubStatus">GitHub metadata loads live when available.</span><a href="https://github.com/blellouay?tab=repositories" target="_blank" rel="noopener noreferrer" class="text-link">All repositories on GitHub <span>↗</span></a></div>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="section-heading reveal"><div><span class="section-index">03 / THE JOURNEY</span><h2>Where I've<br><em>made an impact.</em></h2></div><p>Practical experience paired with a strong academic foundation.</p></div>
+      <div class="timeline">
+        <article class="timeline-row reveal"><span class="timeline-date">JUN — JUL 2026</span><div class="timeline-content"><div class="timeline-title"><h3>Data Science Intern</h3><span>AMC EY · Tunisia</span></div><p>Built a research-paper RAG assistant with section-aware GROBID ingestion, Qdrant search, cross-encoder reranking, local Llama generation through Ollama, and claim-level answer verification. Designed an 18-question evaluation framework.</p><div class="chip-row"><span>RAG</span><span>GROBID</span><span>Qdrant</span><span>Ollama</span></div></div></article>
+        <article class="timeline-row reveal"><span class="timeline-date">SUMMER 2025</span><div class="timeline-content"><div class="timeline-title"><h3>Data Science Intern</h3><span>Sagemcom · Tunisia</span></div><p>Automated collection and Python processing of calibration-unit data to streamline an operational workflow.</p><div class="chip-row"><span>Python</span><span>Automation</span><span>Data Processing</span></div></div></article>
+        <article class="timeline-row reveal"><span class="timeline-date">2024 — PRESENT*</span><div class="timeline-content"><div class="timeline-title"><h3>Engineering Degree in Data Science</h3><span>ESSAI · Tunis</span></div><p>Machine learning, statistics, data analysis, risk management, and financial engineering. <small>*Dates are from the supplied CV; update if your academic status has changed.</small></p></div></article>
+      </div>
+    </section>
+
+    <section class="section results-section container">
+      <div class="results-head reveal"><span class="section-index">04 / MEASURABLE RESULTS</span><h2>Evidence over hype<span class="gradient-text">.</span></h2></div>
+      <div class="results-grid"><article class="metric-card reveal"><span>FINANCIAL SENTIMENT · LoRA</span><strong>92.86<small>%</small></strong><p>Test accuracy on Financial PhraseBank</p></article><article class="metric-card reveal"><span>FINANCIAL SENTIMENT · LoRA</span><strong>91.84<small>%</small></strong><p>Macro F1 on the held-out test split</p></article><article class="metric-card reveal"><span>AIR POLLUTION · BiLSTM</span><strong>12.09</strong><p>Best MAE, in µg/m³, for PM2.5 forecasting</p></article></div>
+      <p class="results-note">Figures come from my project evaluations; see individual project documentation for the dataset, splits, baselines, and experimental context. Financial sentiment repository is not yet publicly linked.</p>
+    </section>
+
+    <section id="contact" class="contact-section container reveal"><span class="section-index">05 / LET'S CONNECT</span><h2>Have a challenge?<br><em>Let's build.</em></h2><p>Interested in AI/ML engineering, research prototypes, and practical data science collaborations.</p><div class="contact-actions"><a class="btn btn-primary" href="mailto:blel.louay@outlook.com">Send me an email ↗</a><button class="btn btn-outline" id="copyEmail">Copy email address <span>⧉</span></button></div><div id="copyFeedback" class="copy-feedback" role="status" aria-live="polite"></div></section>
+  </main>
+  <footer class="footer container"><span>© <span id="year"></span> Louay Blel. Built with curiosity &amp; code.</span><div><a href="https://github.com/blellouay" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="mailto:blel.louay@outlook.com">Email ↗</a><a href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
