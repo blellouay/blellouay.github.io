@@ -2,6 +2,7 @@
 const username='blellouay';
 // The curated project summaries remain available if the GitHub API is unreachable.
 const projects=[
+ {name:'ForecastIQ',category:'ml',label:'AGENTIC AI / FORECASTING',short:'FIQ',tone:'linear-gradient(130deg,#0d6770,#30447a)',description:'Leakage-aware retail demand forecasting that classifies demand patterns, validates eligible models on matched historical windows, and routes each series to a 28-day forecast through LangGraph.',tags:['LangGraph','LightGBM','N-HiTS'],repo:'ForecastIQ'},
  {name:'Research Paper Assistant',category:'genai',label:'GEN AI / RAG',short:'RAG',tone:'linear-gradient(130deg,#0f6057,#123c53)',description:'Section-aware PDF ingestion, semantic search, reranking and locally generated answers with claim-level verification.',tags:['GROBID','Qdrant','Ollama'],repo:'Research-Paper-Assistant-using-RAG'},
  {name:'Enterprise AI Copilot',category:'genai',label:'GEN AI / RETRIEVAL',short:'AI',tone:'linear-gradient(130deg,#304280,#1d5968)',description:'An engineering-focused enterprise knowledge retrieval project exploring chunking, evidence quality and RAG evaluation.',tags:['RAG','Python','Evaluation'],repo:'enterprise-ai-copilot'},
  {name:'Financial News Sentiment',category:'genai',label:'NLP / FINE-TUNING',short:'NLP',tone:'linear-gradient(130deg,#553a80,#294165)',description:'Gemma 2 2B fine-tuning with LoRA versus TF-IDF and logistic regression on Financial PhraseBank; 92.86% accuracy.',tags:['Gemma 2','LoRA','Transformers'],repo:null},
